@@ -34,11 +34,13 @@
       td.a,th.a,td.c,th.c,td.b,th.b
       {
         width: auto;
-        border: 1px solid rgb(128, 255, 0);
+        border: 1px solid rgb(15, 22, 40);
       }
-      div.a{
+      div{
 
         line-height: 200%;
+        display: grid;
+        grid-template-columns: 1fr 10fr 1fr;
       }
   
   </style>
@@ -53,34 +55,25 @@
             </nav>
         <h2 style="color:rgb(240, 240, 240)">
             <div class = "container-fluid">
-              <table style="position:fixed; left: 10%;">
+              <table>
+                <tr>
+                  <br>
+                  <th class = "a"> Date </th>
+                  <th class = "b"> Task</th>
+                  <th class = "c">Complete</th>
+                </tr>
+                <tr>
+                  <td class= "a">September 1, 2022 </td>
+                  <td class = "b">  Added to website</td>
+                  <td class = "c"> Y </td>
+                </tr>
                   <tr>
-                    <br>
-                      <th class = "a"> 
-                        <div class= "a"> Date 
-                        </div>
-                      </th>
-                    <th class = "b"> Task</th>
-                    <th class = "c">Complete</th>
-                  </tr>
-                  <tr>
-                    <td class= "a">
-                      <div class ="a"> September 1, 2022 
-                      </div>
-                    </td>
-                    <td class = "b"> <div class ="b"> Added to website</div></td>
-                    <td class = "c"> Y</td>
-                  </tr>
-                  <tr>
-                    <td class= "a">
-                      <div class = "a"> September 5, 2022
-                      </div> 
-                    </td>
-                    <td class = "b"> <div class ="b"> Learning React.js </div></td>
+                    <td class= "a">September 5, 2022</td>
+                    <td class = "b"> Learning React.js </td>
                     <td class = "c"> N </td>
                   </tr>
-                </table>
-              </div>
+              </table>
+            </div>
         </h2>
 
 

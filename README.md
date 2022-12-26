@@ -1,2 +1,2 @@
 # MarceloDamian.github.io
-![alt text](https://github.com/MarceloDamian/MarceloDamian.github.io/edit/main/website.png)
+![alt text](https://github.com/MarceloDamian/MarceloDamian.github.io/edit/main/website.png | width = 100)
